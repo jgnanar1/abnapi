@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-20T13:18:05 CEST" name="Suite" finished-at="2022-07-20T13:18:16 CEST" duration-ms="10984">
+    <groups>
+    </groups>
+    <test started-at="2022-07-20T13:18:05 CEST" name="Test" finished-at="2022-07-20T13:18:16 CEST" duration-ms="10984">
+      <class name="tests.rest.TC002_DeleteIssue1">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:tests.rest.TC002_DeleteIssue1@2a54a73f]" started-at="2022-07-20T13:18:05 CEST" name="setValues" finished-at="2022-07-20T13:18:05 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.rest.TC002_DeleteIssue1@2a54a73f]" started-at="2022-07-20T13:18:14 CEST" name="beforeMethod" finished-at="2022-07-20T13:18:14 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.rest.TC002_DeleteIssue1@2a54a73f]" started-at="2022-07-20T13:18:14 CEST" name="beforeClass" finished-at="2022-07-20T13:18:14 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="deleteIssue()[pri:0, instance:tests.rest.TC002_DeleteIssue1@2a54a73f]" started-at="2022-07-20T13:18:14 CEST" name="deleteIssue" finished-at="2022-07-20T13:18:15 CEST" depends-on-methods="tests.rest.TC001_SearchProject.searchProject" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteIssue -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.rest.TC002_DeleteIssue1@2a54a73f]" started-at="2022-07-20T13:18:15 CEST" name="afterMethod" finished-at="2022-07-20T13:18:15 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.rest.TC002_DeleteIssue1 -->
+      <class name="tests.rest.TC002_CreateIssue">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:tests.rest.TC002_CreateIssue@71238fc2]" started-at="2022-07-20T13:18:05 CEST" name="setValues" finished-at="2022-07-20T13:18:05 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method signature="createIssue()[pri:0, instance:tests.rest.TC002_CreateIssue@71238fc2]" started-at="2022-07-20T13:18:06 CEST" name="createIssue" finished-at="2022-07-20T13:18:14 CEST" depends-on-methods="tests.rest.TC001_SearchProject.searchProject" duration-ms="7965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.rest.TC002_CreateIssue@71238fc2]" started-at="2022-07-20T13:18:06 CEST" name="beforeMethod" finished-at="2022-07-20T13:18:06 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.rest.TC002_CreateIssue@71238fc2]" started-at="2022-07-20T13:18:06 CEST" name="beforeClass" finished-at="2022-07-20T13:18:06 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.rest.TC002_CreateIssue@71238fc2]" started-at="2022-07-20T13:18:14 CEST" name="afterMethod" finished-at="2022-07-20T13:18:14 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.rest.TC002_CreateIssue -->
+      <class name="tests.rest.TC001_SearchProject">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.rest.TC001_SearchProject@fa49800]" started-at="2022-07-20T13:18:02 CEST" name="beforeSuite" finished-at="2022-07-20T13:18:05 CEST" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:tests.rest.TC001_SearchProject@fa49800]" started-at="2022-07-20T13:18:05 CEST" name="setValues" finished-at="2022-07-20T13:18:05 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.rest.TC001_SearchProject@fa49800]" started-at="2022-07-20T13:18:05 CEST" name="beforeClass" finished-at="2022-07-20T13:18:05 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.rest.TC001_SearchProject@fa49800]" started-at="2022-07-20T13:18:05 CEST" name="beforeMethod" finished-at="2022-07-20T13:18:05 CEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchProject()[pri:0, instance:tests.rest.TC001_SearchProject@fa49800]" started-at="2022-07-20T13:18:05 CEST" name="searchProject" finished-at="2022-07-20T13:18:06 CEST" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProject -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.rest.TC001_SearchProject@fa49800]" started-at="2022-07-20T13:18:06 CEST" name="afterMethod" finished-at="2022-07-20T13:18:06 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.rest.TC001_SearchProject@fa49800]" started-at="2022-07-20T13:18:16 CEST" name="afterSuite" finished-at="2022-07-20T13:18:16 CEST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.rest.TC001_SearchProject -->
+      <class name="tests.rest.TC002_updateIssue1">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:tests.rest.TC002_updateIssue1@16a0ee18]" started-at="2022-07-20T13:18:05 CEST" name="setValues" finished-at="2022-07-20T13:18:05 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.rest.TC002_updateIssue1@16a0ee18]" started-at="2022-07-20T13:18:15 CEST" name="beforeMethod" finished-at="2022-07-20T13:18:15 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateIssue()[pri:0, instance:tests.rest.TC002_updateIssue1@16a0ee18]" started-at="2022-07-20T13:18:15 CEST" name="updateIssue" finished-at="2022-07-20T13:18:16 CEST" depends-on-methods="tests.rest.TC001_SearchProject.searchProject" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateIssue -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.rest.TC002_updateIssue1@16a0ee18]" started-at="2022-07-20T13:18:15 CEST" name="beforeClass" finished-at="2022-07-20T13:18:15 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.rest.TC002_updateIssue1@16a0ee18]" started-at="2022-07-20T13:18:16 CEST" name="afterMethod" finished-at="2022-07-20T13:18:16 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.rest.TC002_updateIssue1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
