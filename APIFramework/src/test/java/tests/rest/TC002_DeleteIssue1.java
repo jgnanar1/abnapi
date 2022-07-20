@@ -44,6 +44,8 @@ public class TC002_DeleteIssue1 extends RESTAssuredBase{
 		pathParms.put("IID", IID);
 		Response deleteWithPathParamAnd = deleteWithPathParamAnd(queryParams, pathParms, "/projects/{ID}//issues/{IID}");
 		deleteWithPathParamAnd.prettyPrint();
+		verifyContentWithKey(response, "title", "updated Issue added using RestAssured");
+		
 
 
 	}
